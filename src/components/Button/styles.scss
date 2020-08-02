@@ -1,0 +1,28 @@
+.Button {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  padding: 16px 32px 16px 32px;
+  border-radius: 30px;
+  color:black;
+  background-color: #F9F9F9;
+  margin-right: 9px;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    color:white;
+    background-color: black;
+    transition: ease-in 0.3s;
+  }
+
+
+ &_active {
+   color:white;
+   background-color: black;
+ }
+
+}
